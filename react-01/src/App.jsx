@@ -1,14 +1,17 @@
 // import {UseRefs} from "./components/hooks/UseRef/UseRefs";
 // import {ForwardRefs} from "./components/hooks/UseRef/ForwardRefs";
-import {BioProvider} from "./components/hooks/customhooks/Context";
-import {Home} from "./components/hooks/customhooks/Home";
+// import {BioProvider} from "./components/hooks/customhooks/Context";
+// import {Home} from "./components/hooks/customhooks/Home";
+import {DarkLight} from "./projects/DarkLight";
+import {ThemeProvider} from "./projects/DarkLight";
+
 
 const App = () => {
   return (
   <>
-  <BioProvider>
-    <Home/>
-  </BioProvider>
+  <ThemeProvider>
+    <DarkLight/>
+  </ThemeProvider>
   </>
   )
   
