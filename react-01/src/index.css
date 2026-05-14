@@ -1,0 +1,73 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* Pokemon page styles */
+.pokemon-page {
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pokemon-header h1 {
+  margin: 0 0 1.5rem;
+  color: #0f172a;
+  font-size: clamp(1.6rem, 2.8vw, 2.3rem);
+  letter-spacing: 0.5px;
+}
+
+.pokemon-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: min(420px, 92vw);
+}
+
+.pokemon-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pokemon-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.12);
+}
+
+.pokemon-name {
+  margin: 0;
+  color: #1d4ed8;
+  text-transform: capitalize;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}

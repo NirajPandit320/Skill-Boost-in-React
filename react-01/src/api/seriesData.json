@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Lovely Runner",
+    "id": 1,
+    "rating": 8.3,
+    "summary": "Romantic fantasy K-drama.",
+    "poster": "https://image.tmdb.org/t/p/w500/9ZedQHPQVveaIYmDSTazhT3y273.jpg"
+  },
+  {
+    "name": "The Witcher",
+    "id": 2,
+    "rating": 8.2,
+    "summary": "Fantasy series about Geralt.",
+    "poster": "https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg"
+  },
+  {
+    "name": "Stranger Things",
+    "id": 3,
+    "rating": 8.7,
+    "summary": "Sci-fi horror series.",
+    "poster": "https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg"
+  },
+  {
+    "name": "Breaking Bad",
+    "id": 4,
+    "rating": 9.5,
+    "summary": "Chemistry teacher becomes drug kingpin.",
+    "poster": "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg"
+  }
+]
