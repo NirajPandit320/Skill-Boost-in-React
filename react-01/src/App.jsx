@@ -1,9 +1,18 @@
 // import {UseRefs} from "./components/hooks/UseRef/UseRefs";
 // import {ForwardRefs} from "./components/hooks/UseRef/ForwardRefs";
-import  Bot  from "./components/hooks/UseRef/Bot";
+import {BioProvider} from "./components/hooks/customhooks/Context";
+import {Home} from "./components/hooks/customhooks/Home";
 
 const App = () => {
-  return <Bot />;
+  return (
+  <>
+  <BioProvider>
+    <Home/>
+  </BioProvider>
+  </>
+  )
+  
+  
 };
 
 export default App;
