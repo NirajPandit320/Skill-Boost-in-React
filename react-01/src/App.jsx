@@ -5,7 +5,8 @@
 // import {DarkLight} from "./projects/DarkLight";
 // import {ThemeProvider} from "./projects/DarkLight";
 // import {ReducerComp} from "./components/hooks/UseReducer/ReducerComp";
-import { ReactMemo } from "./components/hooks/memo/ReactMemo";
+// import { ReactMemo } from "./components/hooks/memo/ReactMemo";
+import MemoParentComponent  from "./components/hooks/memo/UseMemo";
 
 
 
@@ -16,7 +17,8 @@ const App = () => {
     <DarkLight/>
   </ThemeProvider> */}
   {/* <ReducerComp/> */}
-  <ReactMemo />
+  {/* <ReactMemo /> */}
+  < MemoParentComponent/>
   </>
   )
   
